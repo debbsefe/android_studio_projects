@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Number Game App</string>
+    <string name="str_reset">reset</string>
+    <string name="str_arrow_up_desc">press arrow up</string>
+    <string name="str_arrow_down_desc">press arrow down</string>
+    <string name="str_success_desc">press app has guessed the number</string>
+    <string name="str_question">Is your number %d?</string>
+    <string name="str_success">Your Number is %d</string>
+
+</resources>

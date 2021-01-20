@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_16"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_35"
+        tools:text="what is your number?" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/text_size_35"
+        android:visibility="invisible"
+        tools:text="Your number is 5" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reset_button"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginRight="@dimen/margin_eight"
+        android:layout_marginBottom="@dimen/margin_thirty_two">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:onClick="clickDownwardArrow"
+            android:background="@drawable/background_circle_blue"
+            android:contentDescription="@string/str_arrow_down_desc"
+            app:srcCompat="@drawable/ic_arrow_downward" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="clickSuccess"
+            android:background="@drawable/background_circle_pink"
+            android:contentDescription="@string/str_arrow_up_desc"
+            app:srcCompat="@drawable/ic_check" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:onClick="clickUpwardArrow"
+            android:background="@drawable/background_circle_blue"
+            android:contentDescription="@string/str_success_desc"
+            app:srcCompat="@drawable/ic_arrow_upward" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_eight"
+        android:text="@string/str_reset"
+        android:onClick="clickResetButton"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/colorPurple" />
+
+</RelativeLayout>
