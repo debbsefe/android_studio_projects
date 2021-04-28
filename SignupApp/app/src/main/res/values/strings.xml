@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SignupApp</string>
+
+    <!-- Strings for OnBoarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">ZATHURA</string>
+    <string name="second_slide_title">ZATHURA</string>
+    <string name="third_slide_title">ZATHURA</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Travel to other planets with ZATHURA </string>
+    <string name="second_slide_desc">Experience space from your phone with ZATHURA</string>
+    <string name="third_slide_desc">Let’s go to space!!!</string>
+
+    <!--Button-->
+    <string name="get_started">Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,10 @@
+ <resources>
+    <string name="app_name">ArchitectureMVVM</string>
+    <string name="priority">1</string>
+    <string name="new_note_button">add new note</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="priority_text">Priority:</string>
+    <string name="save">Save</string>
+     <string name="delete_all_notes">Delete all notes</string>
+ </resources>
